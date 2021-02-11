@@ -1,0 +1,29 @@
+module.exports = {
+    idCompany: 1,
+    timeZone: "America/Sao_Paulo",
+    timeFormat: "pt-BR",
+    dbSource: {
+        stream: false,
+        options: {
+            enableArithAbort: true,
+            encrypt: false
+        },
+        host: '127.0.0.1',
+        port: 1433,
+        database: 'databasename',
+        user: 'username',
+        password: 'password'
+    },
+    dbSink: {
+        stream: false,
+        options: {
+            enableArithAbort: true,
+            encrypt: false
+        },
+        host: '127.0.0.1',
+        port: 1433,
+        database: 'databasename',
+        user: 'username',
+        password: 'password'
+    }
+}
